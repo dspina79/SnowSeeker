@@ -13,6 +13,7 @@
 		55600A2425E6EB30008EDC01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55600A2325E6EB30008EDC01 /* Preview Assets.xcassets */; };
 		55600A2D25E7395C008EDC01 /* TwoExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A2C25E7395C008EDC01 /* TwoExampleView.swift */; };
 		55600A3025E73B33008EDC01 /* OptionalSheetAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */; };
+		55600A3325E73E12008EDC01 /* TransparentGroupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55600A2525E6EB30008EDC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55600A2C25E7395C008EDC01 /* TwoExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoExampleView.swift; sourceTree = "<group>"; };
 		55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalSheetAlertView.swift; sourceTree = "<group>"; };
+		55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentGroupContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				55600A2225E6EB30008EDC01 /* Preview Content */,
 				55600A2C25E7395C008EDC01 /* TwoExampleView.swift */,
 				55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */,
+				55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */,
 			);
 			path = SnowSeeker;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55600A3325E73E12008EDC01 /* TransparentGroupContainerView.swift in Sources */,
 				55600A1F25E6EB28008EDC01 /* ContentView.swift in Sources */,
 				55600A3025E73B33008EDC01 /* OptionalSheetAlertView.swift in Sources */,
 				55600A1D25E6EB28008EDC01 /* SnowSeekerApp.swift in Sources */,
