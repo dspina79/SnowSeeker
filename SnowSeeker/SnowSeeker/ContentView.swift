@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             List(resorts) { resort in
                 NavigationLink(
-                    destination: Text(resort.name)) {
+                    destination: ResortView(resort: resort)) {
                     Image(resort.country)
                         .resizable()
                         .scaledToFill()
@@ -30,6 +30,8 @@ struct ContentView: View {
                     }
                 }
             }.navigationBarTitle("Resorts")
+            
+            WelcomeView()
         }
     }
 }
