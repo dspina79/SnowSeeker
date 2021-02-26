@@ -14,6 +14,9 @@
 		55600A2D25E7395C008EDC01 /* TwoExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A2C25E7395C008EDC01 /* TwoExampleView.swift */; };
 		55600A3025E73B33008EDC01 /* OptionalSheetAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */; };
 		55600A3325E73E12008EDC01 /* TransparentGroupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */; };
+		55600A3625E88684008EDC01 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 55600A3525E88684008EDC01 /* resorts.json */; };
+		55600A3925E886CD008EDC01 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A3825E886CD008EDC01 /* Resort.swift */; };
+		55600A3C25E887D8008EDC01 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A3B25E887D8008EDC01 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		55600A2C25E7395C008EDC01 /* TwoExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoExampleView.swift; sourceTree = "<group>"; };
 		55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalSheetAlertView.swift; sourceTree = "<group>"; };
 		55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentGroupContainerView.swift; sourceTree = "<group>"; };
+		55600A3525E88684008EDC01 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = resorts.json; path = "../../../../../Downloads/HackingWithSwift-main/SwiftUI/project19-files/resorts.json"; sourceTree = "<group>"; };
+		55600A3825E886CD008EDC01 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		55600A3B25E887D8008EDC01 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		55600A1B25E6EB28008EDC01 /* SnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
+				55600A3525E88684008EDC01 /* resorts.json */,
 				55600A1C25E6EB28008EDC01 /* SnowSeekerApp.swift */,
 				55600A1E25E6EB28008EDC01 /* ContentView.swift */,
 				55600A2025E6EB30008EDC01 /* Assets.xcassets */,
@@ -66,6 +73,8 @@
 				55600A2C25E7395C008EDC01 /* TwoExampleView.swift */,
 				55600A2F25E73B33008EDC01 /* OptionalSheetAlertView.swift */,
 				55600A3225E73E12008EDC01 /* TransparentGroupContainerView.swift */,
+				55600A3825E886CD008EDC01 /* Resort.swift */,
+				55600A3B25E887D8008EDC01 /* Bundle-Decodable.swift */,
 			);
 			path = SnowSeeker;
 			sourceTree = "<group>";
@@ -135,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55600A3625E88684008EDC01 /* resorts.json in Resources */,
 				55600A2425E6EB30008EDC01 /* Preview Assets.xcassets in Resources */,
 				55600A2125E6EB30008EDC01 /* Assets.xcassets in Resources */,
 			);
@@ -151,6 +161,8 @@
 				55600A1F25E6EB28008EDC01 /* ContentView.swift in Sources */,
 				55600A3025E73B33008EDC01 /* OptionalSheetAlertView.swift in Sources */,
 				55600A1D25E6EB28008EDC01 /* SnowSeekerApp.swift in Sources */,
+				55600A3925E886CD008EDC01 /* Resort.swift in Sources */,
+				55600A3C25E887D8008EDC01 /* Bundle-Decodable.swift in Sources */,
 				55600A2D25E7395C008EDC01 /* TwoExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
