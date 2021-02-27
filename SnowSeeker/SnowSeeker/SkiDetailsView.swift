@@ -10,9 +10,13 @@ import SwiftUI
 struct SkiDetailsView: View {
     let resort: Resort
     var body: some View {
-        VStack {
+        // using group allows it to conform to its parent
+        Group {
             Text("Elevation: \(resort.elevation)m")
+                .layoutPriority(1)
+            Spacer().frame(height: 0)
             Text("Snow Depth: \(resort.snowDepth)cm")
+                .layoutPriority(1)
         }
     }
 }

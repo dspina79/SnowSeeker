@@ -27,9 +27,14 @@ struct ResortDetailsView: View {
     }
     
     var body: some View {
-        VStack {
+        // layout priorty indicates that the layout for the
+        // item is more important than its parent
+        Group {
             Text("Size: \(size)")
+                .layoutPriority(1)
+            Spacer().frame(height: 0)
             Text("Price: \(priceString)")
+                .layoutPriority(1)
         }
     }
 }
