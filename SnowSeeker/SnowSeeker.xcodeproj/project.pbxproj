@@ -21,6 +21,7 @@
 		55600A4225E88DAA008EDC01 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4125E88DAA008EDC01 /* ResortView.swift */; };
 		55600A4525E88FB8008EDC01 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4425E88FB8008EDC01 /* SkiDetailsView.swift */; };
 		55600A4825E8903B008EDC01 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4725E8903B008EDC01 /* ResortDetailsView.swift */; };
+		55600A4B25E9D6B6008EDC01 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4A25E9D6B6008EDC01 /* Facility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		55600A4125E88DAA008EDC01 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
 		55600A4425E88FB8008EDC01 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
 		55600A4725E8903B008EDC01 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		55600A4A25E9D6B6008EDC01 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				55600A4125E88DAA008EDC01 /* ResortView.swift */,
 				55600A4425E88FB8008EDC01 /* SkiDetailsView.swift */,
 				55600A4725E8903B008EDC01 /* ResortDetailsView.swift */,
+				55600A4A25E9D6B6008EDC01 /* Facility.swift */,
 			);
 			path = SnowSeeker;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				55600A3025E73B33008EDC01 /* OptionalSheetAlertView.swift in Sources */,
 				55600A4825E8903B008EDC01 /* ResortDetailsView.swift in Sources */,
 				55600A4225E88DAA008EDC01 /* ResortView.swift in Sources */,
+				55600A4B25E9D6B6008EDC01 /* Facility.swift in Sources */,
 				55600A3F25E88C72008EDC01 /* WelcomeView.swift in Sources */,
 				55600A1D25E6EB28008EDC01 /* SnowSeekerApp.swift in Sources */,
 				55600A3925E886CD008EDC01 /* Resort.swift in Sources */,
