@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ResortView: View {
     @Environment(\.horizontalSizeClass) var sizeClass
+    @EnvironmentObject var favorites: Favorites
     @State private var selectedFacility: Facility?
     let resort: Resort
     var body: some View {
@@ -56,6 +57,14 @@ struct ResortView: View {
                     }
                     .padding(.vertical)
                 }.padding(.horizontal)
+                
+                Button(favorites.contains(self.resort) ? "Remove from Favorites" : "Add to Favorites") {
+                    if self.favorites.contains(self.resort) {
+                        self.favorites.remove(self.resort)
+                    } else {
+                        self.favorites.add(self.resort)
+                    }
+                }
             }
         }.navigationBarTitle(Text("\(resort.name), \(resort.country)"), displayMode: .inline)
         .alert(item: $selectedFacility) { facility in
