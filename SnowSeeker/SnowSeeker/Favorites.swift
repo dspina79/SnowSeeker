@@ -7,13 +7,19 @@
 
 import SwiftUI
 
-class Favorites: ObservableObject {
+class Favorites: ObservableObject, Codable {
     private var resorts: Set<String>
     private let SAVE_KEY = "Favorites"
     
     init() {
-        // load data here
-        
+        if let data = UserDefaults.standard.data(forKey: SAVE_KEY) {
+            if let decoded = try? JSONDecoder().decode(Set<String>.self, from: data) {
+                self.resorts = decoded
+                return
+            } else {
+                print("Error attempting to decode data")
+            }
+        }
         self.resorts = []
     }
     
@@ -37,7 +43,12 @@ class Favorites: ObservableObject {
     }
     
     func save() {
-        // save data
+        if let encodedData = try? JSONEncoder().encode(self.resorts) {
+            UserDefaults.standard.setValue(encodedData, forKey: SAVE_KEY)
+        } else {
+            print("Error encoding data")
+        }
+        
     }
 }
  

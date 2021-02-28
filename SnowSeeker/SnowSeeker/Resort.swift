@@ -14,6 +14,7 @@ struct Resort: Codable, Identifiable {
     let description: String
     let price: Int
     let size: Int
+    let imageCredit: String
     let snowDepth: Int
     let elevation: Int
     let runs: Int
