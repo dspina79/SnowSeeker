@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var favorites = Favorites()
-    let resorts: [Resort] = Bundle.main.decode("resorts.json")
+    @State private var sort: String = "Default"
+    @State private var showFilters: Bool = false
+    
+    @State private var resorts: [Resort] = Bundle.main.decode("resorts.json")
+    
     var body: some View {
         NavigationView {
+            
             List(resorts) { resort in
                 NavigationLink(
                     destination: ResortView(resort: resort)) {
@@ -37,9 +42,20 @@ struct ContentView: View {
                         .accessibilityLabel(Text("This is a favorite resort."))
                         .foregroundColor(.red)
                 }
-            }.navigationBarTitle("Resorts")
-            
+            }
+            .navigationBarTitle("Resorts")
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Sort & Filter") {
+                        self.showFilters = true
+                    }
+                }
+            })
+
             WelcomeView()
+        }
+        .sheet(isPresented: $showFilters) {
+            FilterView(resorts: $resorts)
         }
         .environmentObject(favorites)
     }

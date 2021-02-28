@@ -23,6 +23,7 @@
 		55600A4825E8903B008EDC01 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4725E8903B008EDC01 /* ResortDetailsView.swift */; };
 		55600A4B25E9D6B6008EDC01 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4A25E9D6B6008EDC01 /* Facility.swift */; };
 		55600A4E25E9DF4B008EDC01 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A4D25E9DF4B008EDC01 /* Favorites.swift */; };
+		55600A5125EB4935008EDC01 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55600A5025EB4935008EDC01 /* FilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		55600A4725E8903B008EDC01 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
 		55600A4A25E9D6B6008EDC01 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
 		55600A4D25E9DF4B008EDC01 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		55600A5025EB4935008EDC01 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				55600A4725E8903B008EDC01 /* ResortDetailsView.swift */,
 				55600A4A25E9D6B6008EDC01 /* Facility.swift */,
 				55600A4D25E9DF4B008EDC01 /* Favorites.swift */,
+				55600A5025EB4935008EDC01 /* FilterView.swift */,
 			);
 			path = SnowSeeker;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55600A5125EB4935008EDC01 /* FilterView.swift in Sources */,
 				55600A3325E73E12008EDC01 /* TransparentGroupContainerView.swift in Sources */,
 				55600A4525E88FB8008EDC01 /* SkiDetailsView.swift in Sources */,
 				55600A1F25E6EB28008EDC01 /* ContentView.swift in Sources */,
